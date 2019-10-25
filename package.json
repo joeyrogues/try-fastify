@@ -1,0 +1,21 @@
+{
+  "name": "tryouts-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bench": "autocannon -c 1000 localhost:3000/users",
+    "start:watch": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^2.10.0",
+    "fastify-helmet": "^3.0.2"
+  },
+  "devDependencies": {
+    "autocannon": "^4.1.1",
+    "nodemon": "^1.19.4"
+  }
+}
